@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head ng-app="inventario">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <title></title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   
+  </head>
+  <body >
+
+  <form class="container">
+  		<div class="form-group">
+  			
+  			<div class="row">
+  				<div class="col-md-12">
+  						
+  						<ul class="nav nav-tabs">
+  							<li role="presentation"><a href="#">Home</a></li>
+  							<li role="presentation"><a href="#">Profile</a></li>
+  							<li role="presentation"><a href="#">Messages</a></li>
+						</ul>
+
+  				</div>
+  		
+  			</div>	
+
+  			<div class="row">
+  				<div class="col-md-12">
+  					<h1>Registro(favor decompletar todos los campos)</h1>
+  				</div>
+  			</div>
+
+ 		</div>
+
+
+  	<form class="form_horizontal">
+  		
+  			<div class="row">
+  				<div class="form-group col-xs-12">
+  					<label class="col-md-3" >Id del tipo de producto</label>
+  					<input type="text" data-toggle="tooltip" title="Ingrese solo numeros" data-placement="right" placeholder="I" class=" col-md-3 text-danger">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="form-group col-xs-12" >
+  					<label class="col-md-3"> Tipo de producto</label>
+  					<input type="text" class="col-md-3" placeholder="Ingresa el nombre"></input>
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="form-group col-xs-12">
+  					<label class="col-md-3">Color</label>
+  					<input type="text" class="col-md-3" placeholder="Ingresa el RFC">
+  					
+  				</div>
+  			</div>
+          <div class="row">
+          <div class="form-group col-xs-12">
+            <label class="col-md-3">Tamaño</label>
+
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-xs-12">
+            <label class="col-md-3">Diseño</label>
+
+            
+          </div>
+        </div>
+  			<div class="row">
+  				<div class="form-group col-xs-12">
+  					<label class="col-md-3">Precio compra</label>
+  					<input type="code" class="col-md-3" placeholder="Ingresa el codigo">
+  					
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="form-group col-xs-12">
+  					<label class="col-md-3">Precio venta</label>
+
+  					
+  				</div>
+  			</div>
+        <div class="row">
+          <div class="form-group col-xs-12">
+            <label class="col-md-3">Unidad de medida</label>
+
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-xs-12">
+            <label class="col-md-3"></label>
+
+            
+          </div>
+        </div>
+  			<div class="row" >
+  				<div class="form-group col-xs-12" >
+
+  						<div ng-controller="izipizi">
+  							<button type="button" class="btn btn-primary col-md-2"  ng-click="alerta()">Aceptar</button>
+  						</div>
+  					
+  						<button type="button" class="btn btn-danger col-md-2 col-md-offset-1">Cancelar</button>
+  				</div>
+  			</div>
+  	
+
+  	</form>
+  
+
+  </form>
+ 
+
+
+ <script src="js/jquery-2.2.1.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/angular.min.js"></script>
+ <script src="js/angular-route.js"></script>
+ <script src="js/angular-messages.min.js"></script> 
+ <script src="js/app.js"></script>
+  
+    
+  </body>
+
+</html>
